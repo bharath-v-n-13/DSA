@@ -64,8 +64,8 @@ Thanks for visiting — feel free to ⭐️ this repo or follow along!<br>
 ---
 
 ### 💬 Let’s Connect!
-📧 bharath@example.com (replace with your real email)<br>
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) (replace with your profile)<br>
+📧 vnbharath931@example.com (replace with your real email)<br>
+🔗 [LinkedIn](https://www.linkedin.com/in/bharath-veerapunagalingam-29435b24a/)) (replace with your profile)<br>
 
 ---
 
