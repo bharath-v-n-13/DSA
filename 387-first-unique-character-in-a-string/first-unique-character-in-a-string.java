@@ -1,7 +1,7 @@
 class Solution {
     public int firstUniqChar(String s) {//through hashing we can archive this code
         int[] freq = new int[26];
-        char[] ch = s.toLowerCase().toCharArray();
+        char[] ch = s.toCharArray();
         for(char c:ch){
             freq[c-'a']++;
         }
