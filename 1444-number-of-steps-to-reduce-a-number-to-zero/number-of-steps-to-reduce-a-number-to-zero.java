@@ -1,14 +1,14 @@
 class Solution {
-    public int numberOfSteps(int n) {
-        int m = 0;
-        while (n > 0) {
-            if (n % 2 == 0) {
-                n /= 2;  
-            } else {
-                n -= 1; 
-            }
-            m++;
+    public int numberOfSteps(int num) {
+        return helper(num,0);
         }
-        return m;
-    }
+        private int helper(int num, int step){
+            if(num==0){
+                return step;
+            }
+            if(num%2==0){
+                return helper(num/2, step+1);
+            }
+            return helper(num-1, step+1);
+        }
 }
