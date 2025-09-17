@@ -1,3 +1,1 @@
-delete p1 from person p1
-join person p2
-on p1.email=p2.email AND p1.id>p2.id;
+delete p1 from person p1 join person p2 on p1.email=p2.email AND p1.id>p2.id;
