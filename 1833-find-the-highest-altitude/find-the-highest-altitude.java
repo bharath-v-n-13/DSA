@@ -1,23 +1,13 @@
 class Solution {
-    int find(int[] arr) {
-        int high = arr[0];
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > high) {
-                high = arr[i];
+    public int largestAltitude(int[] gain) {
+        int startpoint = 0;
+        int maxalt=0;
+        for(int i=0;i<gain.length;i++){
+            startpoint +=gain[i];
+            if(startpoint>maxalt){
+                maxalt = startpoint;
             }
         }
-        return high;
-    }
-
-    public int largestAltitude(int[] gain) {
-        int[] alternateArr = new int[gain.length + 1];
-        alternateArr[0] = 0;
-
-        for (int i = 0; i < gain.length; i++) {
-            alternateArr[i + 1] = alternateArr[i] + gain[i];
-        }
-
-        int highest = find(alternateArr);
-        return highest;
+        return maxalt;
     }
 }
