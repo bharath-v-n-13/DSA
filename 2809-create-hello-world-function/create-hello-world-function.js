@@ -8,5 +8,5 @@ var createHelloWorld = function() {
         
     }
 };
- const f = createHelloWorld();
- f();
+//  const f = createHelloWorld();
+//  f();
